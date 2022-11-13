@@ -2,8 +2,8 @@ import React from 'react';
 import Header from './Componente/Header';
 import Footer from './Componente/Footer';
 import './style/App.css';
-import {useEffect, useState, useCallback} from 'react';
-import { Document, Page } from 'react-pdf/dist/esm/entry.vite';
+import {useEffect, useState} from 'react';
+import { Document, Page } from 'react-pdf/dist/esm/entry.webpack5';
 import designpdf from './design.pdf'
 import 'react-pdf/dist/esm/Page/TextLayer.css';
 
